@@ -3,13 +3,13 @@
 3.	arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
 4.	arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
 5.	fila, i[0-n]
-6. Para (fila <-- 0; i < 4; 1)Haga
-7.	generarOperacion(arreglo1[fila], arreglo2[fila])
-8. fin para
+6. 	Para (fila <-- 0; i < 4; 1)Haga
+7.		generarOperacion(arreglo1[fila], arreglo2[fila])
+8. 	fin para
 9. fin funcion principal
-10. funcion generarOperacion(a, i; b, i)
+10.funcion generarOperacion(a, i; b, i)
 11.	z, i[0-n]
 12.	z <-- (a**2 + b**2) + a*b 
 13. 	<< "El valor de z es: " + z	
-14. fin funcion generarOperacion	
+14. fin funcion genrarOperacion	
 15. fin

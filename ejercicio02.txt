@@ -1,4 +1,4 @@
-1. Inicio
+﻿1. Inicio
 2. funcion principal( )
 3. 	opcion, i[0-n]
 4.	Escribir "Ingrese una Opción"
@@ -36,5 +36,5 @@
 34.	Leer numeroAsientos
 35.  	mensaje <--  ("Moto con motor a %s y %d asientos\n" , tipoMotor, numeroAsientos)
 36.  	retorna mensaje
-37. fin funcion obtenerMotos(
+37. fin funcion obtenerMotos()
 38. Fin
