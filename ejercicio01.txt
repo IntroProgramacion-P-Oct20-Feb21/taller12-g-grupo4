@@ -11,5 +11,5 @@
 11.	z, i[0-n]
 12.	z <-- (a**2 + b**2) + a*b 
 13. 	<< "El valor de z es: " + z	
-14. fin funcion genrarOperacion	
+14. fin funcion generarOperacion	
 15. fin

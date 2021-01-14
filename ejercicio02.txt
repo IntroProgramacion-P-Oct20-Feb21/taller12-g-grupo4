@@ -1,0 +1,40 @@
+1. Inicio
+2. funcion principal( )
+3. 	opcion, i[0-n]
+4.	Escribir "Ingrese una Opción"
+5. 	Escribir "Ingrese 1 para autos"
+6. 	Escribir "Ingrese 2 para motos"
+7. 	Leer opción 
+8. 	Si (opcion == 1) entonces
+9.      	mensajeFinal <-- obtenerAutos( )
+10.    		Escribir mensajeFinal
+11. 	De lo contrario 
+12.    		Si (opcion == 2) entonces
+13.         		mensajeFinal <-- obtenerMotos( ) 
+14.         		Escribir mensajeFinal
+15.         	Fin Si
+16. 	Fin Si
+17. fin funcion principal
+18. funcion obtenerAutos( ) 
+19. 	marca, ,x(200)[{1-10},{A-Z},{a-z},{BS}]) <-- ""
+20. 	año, ,x(200)[{1-10},{A-Z},{a-z},{BS}]) <-- ""
+21. 	mensaje, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+21. 	Escribir "Ingrese la marca del auto"
+22. 	Leer marca
+23. 	Escribir "Ingrese el año de fabricación"
+24. 	Leer año
+25.  	mensaje <--  ("Auto marca %s con año de fabricación %s\n" , marca, año)
+26.  	retorna mensaje
+27. fin funcion obtenerAutos( ) 
+28. función obtenerMotos( ) 
+29. 	tipoMotor, ,x(200)[{1-10},{A-Z},{a-z},{BS}]) <-- ""
+30.	numeroAsientos, ,i[0-n]
+31.	mensaje, x(200)[{a-b}, {BS}, {*, =}] <-- ""
+31. 	Escribir "Ingrese el tipo de motor"
+32. 	Leer tipoMotor
+33. 	Escribir "Ingrese el número de asientos"
+34.	Leer numeroAsientos
+35.  	mensaje <--  ("Moto con motor a %s y %d asientos\n" , tipoMotor, numeroAsientos)
+36.  	retorna mensaje
+37. fin funcion obtenerMotos(
+38. Fin
